@@ -40,7 +40,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 30px;
 }
 
 .header-banner > .content > button > img {
@@ -102,7 +101,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 30px;
 } 
 
 .alternative-medicine > .text-content > button > img {
@@ -120,4 +118,13 @@
     to {
       transform: rotate(359deg);
     }
+  }
+
+  a {
+      color: inherit;
+      display: inherit;
+      align-items: inherit;
+      justify-content: inherit;
+      width: 100%;
+      padding: 0px 30px;
   }
