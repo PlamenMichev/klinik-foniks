@@ -1,0 +1,49 @@
+body { 
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav > .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 49px 67px 0px 67px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000000;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links > a {
+    font-family: 'Alegreya', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.nav-links > a {
+    margin-right: 10px;
+}
+
+.nav-links > a:last-of-type {
+    margin-right: 0;
+}
+
+.logo {
+    font-family: 'Alegreya', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-image {
+    margin: -80px auto auto;;
+}
