@@ -43,6 +43,11 @@ nav > .main-content {
     font-size: 20px;
 }
 
+.logo > a {
+    color: #000000;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
 }
