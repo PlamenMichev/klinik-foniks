@@ -121,3 +121,16 @@ footer > .some-section {
 footer > .some-section > img:first-of-type {
     margin-right: 35px;
 }
+
+.animate-rotate {
+    animation: rotation 1s ease-in-out;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
