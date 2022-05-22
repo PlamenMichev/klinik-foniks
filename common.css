@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* Navigation */
+
 nav {
     display: flex;
     flex-direction: column;
@@ -47,4 +49,75 @@ a {
 
 .nav-image {
     margin: -80px auto auto;;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 70px;
+    background-color: #423549;
+}
+
+footer > .logo-section {
+    display: flex;
+    align-items: center;
+}
+
+footer > .logo-section > img {
+    margin-right: 40px;
+}
+
+footer > .logo-section > .info > h4 {
+    font-family: 'Alegreya', sans-serif;
+    font-size: 20px;
+    color: #FFFCF4;
+    margin: 0;
+}
+
+footer > .logo-section > .info > p {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #FFFCF4;
+}
+
+footer > .info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer > .info-section > .info {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+footer > .info-section > .info:last-of-type {
+    margin-right: 0;
+}
+
+
+footer > .info-section > .info > img {
+    margin-right: 11px;
+}
+
+footer > .info-section > .info > span {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #FFFCF4;
+}
+
+footer > .some-section {
+    display: flex;
+}
+
+footer > .some-section > img:first-of-type {
+    margin-right: 35px;
 }
