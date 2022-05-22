@@ -50,10 +50,10 @@ window.onclick = function(event) {
   }
 }
 
-document.getElementById('submit-book').addEventListener('click', () => {
-  const firstStage = document.getElementsByClassName('first-stage')[0]
-  const secondStage = document.getElementsByClassName('second-stage')[0]
+const firstStage = document.getElementsByClassName('first-stage')[0]
+const secondStage = document.getElementsByClassName('second-stage')[0]
 
+document.getElementById('submit-book').addEventListener('click', () => {
   firstStage.style.display = 'none'
   secondStage.style.display = 'flex'
 })
@@ -61,4 +61,6 @@ document.getElementById('submit-book').addEventListener('click', () => {
 document.getElementById('great-button').addEventListener('click', () => {
   modal.style.display = "none";
   document.body.style.overflowY = 'scroll';
+  firstStage.style.display = 'flex'
+  secondStage.style.display = 'none'
 })
