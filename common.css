@@ -5,6 +5,8 @@ body {
 nav {
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 0;
 }
 
 nav > .main-content {
@@ -25,10 +27,9 @@ nav > .main-content {
     font-family: 'Alegreya', sans-serif;
     font-size: 15px;
     color: #000000;
-}
-
-.nav-links > a {
-    margin-right: 10px;
+    margin-right: 20px;
+    width: auto;
+    padding: 0;
 }
 
 .nav-links > a:last-of-type {
