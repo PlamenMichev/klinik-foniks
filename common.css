@@ -59,6 +59,13 @@ a {
     margin: -85px auto auto;;
 }
 
+.language-image {
+    width: 24px;
+    height: 15px;
+    position: absolute;
+    right: 67px;
+    top: 20px;
+}
 
 /* Footer */
 

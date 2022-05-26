@@ -147,7 +147,7 @@
 
 .services > .labels {
     margin: 35px auto;
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -155,7 +155,7 @@
 }
 
 .services > .labels > .service-label {
-    width: 190px;
+    width: 215px;
     height: 53px;
     background-color: #739482;
     border-radius: 30px;
@@ -247,7 +247,7 @@
 
 .clients > .client > .first-client > div {
     margin-left: 40%;
-    margin-top: 160px;
+    margin-top: 90px;
 }
 
 .clients > .client {
@@ -267,12 +267,12 @@
 
 .clients > .first-client > div {
     margin-left: 40%;
-    margin-top: 90px;
+    margin-top: 160px;
 }
 
 .clients > .second-client > div {
     margin-left: 20%;
-    margin-top: 140px;
+    margin-top: 160px;
 }
 
 .clients > .second-client {
