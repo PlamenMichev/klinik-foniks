@@ -3,7 +3,7 @@
     background-position: initial;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: calc(100vh - 172px);
+    height: 100vh;
     display: flex;
 }
 
@@ -165,6 +165,12 @@
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #fff;
+    cursor: default;
+}
+
+.services > .labels > .service-label:hover {
+    background-color: #fff;
+    color: #739482;
 }
 
 .services > .services-wrapper > div  {
@@ -186,6 +192,12 @@
 }
 
 /* Clients section */
+
+.client-button {
+    height: 40px !important;
+    width: 200px !important;
+}
+
 
 .clients {
     margin-top: -100px;
@@ -235,7 +247,7 @@
 
 .clients > .client > .first-client > div {
     margin-left: 40%;
-    margin-top: 90px;
+    margin-top: 160px;
 }
 
 .clients > .client {
