@@ -22,18 +22,15 @@ const activateButton = () => {
 // Get the modal
 const modal = document.getElementById("booking-modal");
 
-// Get the button that opens the modal
-const btn = document.getElementById("book-button");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
-  if (!btn.classList.contains('disabled')) {
+function openModal() {
     modal.style.display = "flex";
     document.body.style.overflowY = 'hidden';
-  }
+  
 }
 
 // When the user clicks on <span> (x), close the modal

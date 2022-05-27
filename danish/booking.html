@@ -16,7 +16,7 @@
     <nav>
         <div class="main-content">
             <div class="logo">
-                <a href="./index.html">
+                <a href="../index.html">
                 Klinik Føniks
                 </a>
             </div>
@@ -33,16 +33,16 @@
     </nav>
         
     <main>
-        <h1>May</h1>
+        <h1>Maj</h1>
         
         <section class="calendar">
-            <span class="day day-name">Monday</span>
-            <span class="day day-name">Tuesday</span>
-            <span class="day day-name">Wednesday</span>
-            <span class="day day-name">Thursday</span>
-            <span class="day day-name">Friday</span>
-            <span class="day day-name">Saturday</span>
-            <span class="day day-name">Sunday</span>
+            <span class="day day-name">Mandag</span>
+            <span class="day day-name">Tirsdag</span>
+            <span class="day day-name">Onsdag</span>
+            <span class="day day-name">Torsdag</span>
+            <span class="day day-name">Fredag</span>
+            <span class="day day-name">Lørdag</span>
+            <span class="day day-name">Søndag</span>
             <span class="day date">1.</span>
             <span class="day date">2.</span>
             <span class="day date">3.</span>
@@ -56,21 +56,21 @@
             <span class="day date">11.</span>
             <span class="day date active">12.</span>
             <span class="day date active">13.
-                <div class="time" onclick="activateButton()">09:00 - 10:00</div>
-                <div class="time" onclick="activateButton()">10:30 - 12:30</div></span>
+                <div class="time" onclick="openModal()">09:00 - 10:00</div>
+                <div class="time" onclick="openModal()">10:30 - 12:30</div></span>
             <span class="day date active">14.</span>
             <span class="day date active">15.</span>
             <span class="day date active">16.</span>
             <span class="day date active">17. 
-                <div class="time" onclick="activateButton()">11:00 - 11:30</div>
-                <div class="time" onclick="activateButton()">12:00 - 13:30</div></span>
+                <div class="time" onclick="openModal()">11:00 - 11:30</div>
+                <div class="time" onclick="openModal()">12:00 - 13:30</div></span>
             <span class="day date active">18.</span>
             <span class="day date active">19.
-                <div class="time" onclick="activateButton()">12:00 - 13:30</div></span>
+                <div class="time" onclick="openModal()">12:00 - 13:30</div></span>
             <span class="day date active">20.</span>
             <span class="day date active">21.</span>
             <span class="day date active">22.
-                <div class="time" onclick="activateButton()">14:00 - 15:30</div></span>
+                <div class="time" onclick="openModal()">14:00 - 15:30</div></span>
             <span class="day date active">23.</span>
             <span class="day date active">24.</span>
             <span class="day date active">25.</span>
@@ -83,7 +83,7 @@
 
             <span></span>
             <span></span>
-            <button id="book-button" class="disabled"><p>Book a meeting</p> <img src="../assets/images/right-arrow.png" /></button>
+            <!-- <button id="book-button" class="disabled"><p>Book a meeting</p> <img src="../assets/images/right-arrow.png" /></button> -->
         </section>
 
     </main>
@@ -148,20 +148,20 @@
         <div class="modal-content">
           <span class="close">&times;</span>
           <div class="first-stage stage">
-            <h3>Let’s finish your booking!</h3>
-            <h4><strong>Booking for:</strong> 24. May, 2022 (Tuesday)</h4>
+            <h3>Lad os færdiggøre din booking!</h3>
+            <h4><strong>Booking for: </strong> 24. maj, 2022 (tirsdag)</h4>
 
-            <input placeholder="Full name..." minlength="2" />
+            <input placeholder="Fulde navn..." minlength="2" />
             <input placeholder="Email..." maxlength="2" />
-            <p class="field-description">*We need this information so you can receive questions, that you need to answer before our consultation. Please write a valid email!</p>
-            <input placeholder="Phone number..." />
+            <p class="field-description">*Vi har brug for denne information så du kan modtage en anamnese, som du skal besvare inden vores konsultation. Skriv en valid email.</p>
+            <input placeholder="Tlf. nummer..." />
 
             <button id="submit-book">BOOK</button>
           </div>
 
           <div class="second-stage stage">
-            <h3>Thank you for your booking!</h3>
-            <h5>You will receive an email with further information shortly!</h5>
+            <h3>Tak for at booke en tid hos mig!</h3>
+            <h5>Du får en email tilsendt med mere information straks!</h5>
             <img src="../assets/images/booking-success.png" alt="flower" />
             <button id="great-button">GREAT</button>
           </div>
