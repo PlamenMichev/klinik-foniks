@@ -1,3 +1,5 @@
-1. Add certificates
-2. Add missing translations
-3.
+translations:
+1. Services
+2. Booking
+3. Animation should be added
+4. In the article and the english booking the text style should be added
