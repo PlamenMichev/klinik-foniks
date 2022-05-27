@@ -2,4 +2,8 @@ translations:
 1. Services
 2. Booking
 3. Animation should be added
-4. In the article and the english booking the text style should be added
+4. In the article and the english about the text style should be added
+5. Change nav to about me ./
+6. Flowers for the services section 
+7. Add danish translation for the nav ./
+8. About us klinik fonix is missspelled ./
